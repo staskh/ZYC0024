@@ -1,3 +1,4 @@
 .DS_Store
 */.DS_Store
 **/.DS_Store
+ESP32CAM_Car/wifi_secrets.h

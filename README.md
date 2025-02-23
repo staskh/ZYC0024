@@ -23,9 +23,14 @@ Software: https://github.com/espressif/esp32-camera
 
 ### Extension Board
 USB to Serial Port chip CH340 : Datasheet https://www.wch-ic.com/downloads/CH340DS1_PDF.html
+requires driver installation, see CH340 driver section below
 
 
 ### Powertrain control
+Motor drive module L298N
+
+Detailed description at https://howtomechatronics.com/tutorials/arduino/arduino-dc-motor-control-tutorial-l298n-pwm-h-bridge/ 
+
 
 # Setup for MacOs
 Configuration:
@@ -71,9 +76,9 @@ Running stub...
 Stub running...
 ```
 
-- Discussion on MacOS CH340 driver installation: https://github.com/WCHSoftGroup/ch34xser_macos/issues/27
-- CH340 Home page : https://www.wch-ic.com/downloads/CH34XSER_MAC_ZIP.html
-- CH340 GitHub page: https://github.com/WCHSoftGroup/ch34xser_macos 
+- [Discussion on MacOS CH340 driver installation](https://github.com/WCHSoftGroup/ch34xser_macos/issues/27)
+- [CH340 Driver Home page](https://www.wch-ic.com/downloads/CH34XSER_MAC_ZIP.html)
+- [CH340 GitHub page](https://github.com/WCHSoftGroup/ch34xser_macos)
 
 ## Uploading firmware to ESP32
 Two important points to remember:
@@ -84,3 +89,6 @@ Two important points to remember:
 - [ESP32-SMART-CAR-KIT-ZYC0024-](https://github.com/LevyMatan/ESP32-SMART-CAR-KIT-ZYC0024-)
 - [ESP32-CAM - A.I. Thinker](https://github.com/raphaelbs/esp32-cam-ai-thinker)
 
+# Useful links
+- [ESP32-CAM Video Streaming and Face Recognition with Arduino IDE](https://electropeak.com/learn/esp32-cam-video-streaming-and-face-recognition-with-arduino-ide/)
+- [Getting Started with the ESP32 Development Board](https://electropeak.com/learn/getting-started-with-the-esp32-development-board/)

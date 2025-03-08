@@ -92,3 +92,6 @@ Two important points to remember:
 # Useful links
 - [ESP32-CAM Video Streaming and Face Recognition with Arduino IDE](https://electropeak.com/learn/esp32-cam-video-streaming-and-face-recognition-with-arduino-ide/)
 - [Getting Started with the ESP32 Development Board](https://electropeak.com/learn/getting-started-with-the-esp32-development-board/)
+- [Arduino Robot Car Wireless Control using HC-05 Bluetooth, NRF24L01 and HC-12 Transceiver Modules](https://howtomechatronics.com/tutorials/arduino/arduino-robot-car-wireless-control-using-hc-05-bluetooth-nrf24l01-and-hc-12-transceiver-modules/)
+- [Getting Started with VS Code and PlatformIO IDE for ESP32](https://randomnerdtutorials.com/vs-code-platformio-ide-esp32-esp8266-arduino/)
+- [ESP32-CAM Pan and Tilt Video Streaming Web Server (2 Axis)](https://randomnerdtutorials.com/esp32-cam-pan-and-tilt-2-axis/)

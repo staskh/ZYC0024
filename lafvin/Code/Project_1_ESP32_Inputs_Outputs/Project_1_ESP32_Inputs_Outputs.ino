@@ -1,3 +1,5 @@
+#include <Arduino.h>
+
 // set pin numbers
 const int buttonPin = 4;  // the number of the pushbutton pin
 const int ledPin =  5;    // the number of the LED pin
@@ -15,12 +17,14 @@ void setup() {
 
 void loop() {
   // read the state of the pushbutton value
+  //delay(1000);
   buttonState = digitalRead(buttonPin);
-  Serial.println(buttonState);
+  //Serial.println(buttonState);
   // check if the pushbutton is pressed.
   // if it is, the buttonState is HIGH
   if (buttonState == HIGH) {
     // turn LED on
+    Serial.println("Button is ON");
     digitalWrite(ledPin, HIGH);
   } else {
     // turn LED off
